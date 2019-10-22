@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Message Board</string>
+    <string name="path">"http://172.16.3.26/message_board"</string>
+    <string name="pathtoImage">http://172.16.3.26:80/message_board</string>
+</resources>
