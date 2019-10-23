@@ -172,7 +172,7 @@ public class MainBoard extends AppCompatActivity {
         protected Bitmap doInBackground(Object... params) {
             try {
                 HttpURLConnection connection =
-                        (HttpURLConnection)new URL("http://172.16.3.26:80/message_board/images/"+presentId+".jpeg").openConnection();
+                        (HttpURLConnection)new URL("http://172.16.3.156:80/message_board/images/"+presentId+".jpeg").openConnection();
                 connection.setDoInput(true);
                 connection.connect();
                 InputStream input = connection.getInputStream();
